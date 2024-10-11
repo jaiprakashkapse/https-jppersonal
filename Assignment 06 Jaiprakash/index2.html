@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index2.css">
+    <title>LogIn</title>
+</head>
+<body>
+    <form>
+    <div class="mainDivhtml2">
+        <div class="container">
+            <div>
+                <img src="yesbank.jpeg">
+            </div>
+            <br>
+            <div class="top-heading">
+                <span>Have an Account?</span>
+                <br>
+                <header>LogIn</header>
+            </div>
+            <br>
+        
+            <div class="input-field">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" id="username" class="input" placeholder="Username" pattern=".+@prudent\.com">
+            </div>
+            <br>
+            <div class="input-field">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" id="password" class="input" placeholder="Password">
+            </div>
+            <br>
+            <div class="input-field">
+                <!-- <input type="Submit" class="Submit" value="LogIn" onclick="myFunction"> -->
+                <button id="myBtn" onclick="myFunction()">LogIn</button>
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <div class="right">
+                    <label><a href="#">Forget Password</a></label>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="register">
+                <div class="lastDiv">
+                    Not Registered with NetBanking?
+                    <a href="index3.html" target="_main" style="color: rgb(30, 2, 62);">Register Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    function myFunction() {
+        alert("Your login sucessfully");
+      }
+   
+</script>
+</body>
+</html>
